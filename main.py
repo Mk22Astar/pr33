@@ -17,7 +17,7 @@ class SimpleAnimationApp(App):
         layout.add_widget(button)
 
         # Объект, который будет анимироваться (картинка)
-        self.animated_image = Image(source='lambo.png', size_hint=(None, None), size=(200, 200),
+        self.animated_image = Image(source='mem.jpg', size_hint=(None, None), size=(200, 200),
                                     pos=(layout.width * 0.5 - 100, layout.height * 0.5 - 100))
         layout.add_widget(self.animated_image)
 
